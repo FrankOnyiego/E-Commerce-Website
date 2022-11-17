@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link
+      rel="stylesheet"
+      href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+ <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+	 <link rel="stylesheet" href="../assets/css/styles.css" />
+
+	 <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+   <!--HEADER SECTION -->
+ <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class='bx bxs-watch nav__logo-icon'></i> F & D
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="../index.html#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../index.html#featured" class="nav__link">Featured</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../index.html#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="./index.html" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+
+
+            </nav>
+        </header>
+
+    <!-- ========================================
+          Our  Cotnact Us Section
+    ========================================  -->
+
+    <section class="section section-contact section--hidden">
+      <div class="container">
+        <h2 class="common-heading">contact us</h2>
+      </div>
+
+      <div class="section-contact-main container">
+        <form action="https://formspree.io/f/mrgdaqek" method="POST" enctype="multipart/form-data">
+          <div class="grid grid-two-col">
+            <input
+              type="text"
+              name="username"
+              id=""
+              required
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              name="email"
+              required
+              placeholder="Email"
+              autocomplete="false"
+            />
+          </div>
+          <div>
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+          <div>
+            <textarea name="message" id="" placeholder="Message"></textarea>
+          </div>
+
+          <div>
+            <input type="submit" value="send message" class="btn" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- ========================================
+          Our JavaScript Section
+    ========================================  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
